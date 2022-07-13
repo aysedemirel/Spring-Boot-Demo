@@ -62,7 +62,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8082/api/v1/student/39568e2f-9bc7-4fc3-bcb8-7f6a21c07ef1",
+					"raw": "localhost:8082/api/v1/student/0d1aab53-3c5e-4670-afd7-da7c73bda548",
 					"host": [
 						"localhost"
 					],
@@ -71,7 +71,7 @@
 						"api",
 						"v1",
 						"student",
-						"39568e2f-9bc7-4fc3-bcb8-7f6a21c07ef1"
+						"0d1aab53-3c5e-4670-afd7-da7c73bda548"
 					]
 				}
 			},
@@ -122,7 +122,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8082/api/v1/student/afc06f10-5121-4c11-b09f-1ac8b92f8faf",
+					"raw": "localhost:8082/api/v1/student/0d1aab53-3c5e-4670-afd7-da7c73bda548",
 					"host": [
 						"localhost"
 					],
@@ -131,7 +131,7 @@
 						"api",
 						"v1",
 						"student",
-						"afc06f10-5121-4c11-b09f-1ac8b92f8faf"
+						"0d1aab53-3c5e-4670-afd7-da7c73bda548"
 					]
 				}
 			},
@@ -143,7 +143,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "localhost:8082/api/v1/student/daf8ea48-6d08-413f-a4fd-face2cf19ccb",
+					"raw": "localhost:8082/api/v1/student/4a92f46c-8fa6-4076-9149-4a4c63d37a82",
 					"host": [
 						"localhost"
 					],
@@ -152,7 +152,7 @@
 						"api",
 						"v1",
 						"student",
-						"daf8ea48-6d08-413f-a4fd-face2cf19ccb"
+						"4a92f46c-8fa6-4076-9149-4a4c63d37a82"
 					]
 				}
 			},
