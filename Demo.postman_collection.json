@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "351e8178-dbdb-4691-b8fd-8c2b4c88b717",
+		"name": "Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13842181"
+	},
+	"item": [
+		{
+			"name": "addStudent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fullName\":\"Deniz\",\r\n    \"classNumber\": 2,\r\n    \"email\" : \"deniz@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/api/v1/student",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"v1",
+						"student"
+					]
+				},
+				"description": "Demo project"
+			},
+			"response": []
+		},
+		{
+			"name": "getAllStudents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/api/v1/student",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"v1",
+						"student"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getStudentById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/api/v1/student/39568e2f-9bc7-4fc3-bcb8-7f6a21c07ef1",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"v1",
+						"student",
+						"39568e2f-9bc7-4fc3-bcb8-7f6a21c07ef1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addStudentGroup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n    \"fullName\":\"Ayşe\",\r\n    \"classNumber\": 3,\r\n    \"email\" : \"ayse@gmail.com\"\r\n    },\r\n    {\r\n    \"fullName\":\"Mustafa\",\r\n    \"classNumber\": 6,\r\n    \"email\" : \"mustafa@gmail.com\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/api/v1/student/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"v1",
+						"student",
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateStudentById",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fullName\":\"Deneme\",\r\n    \"classNumber\": 9,\r\n    \"email\" : \"deneme@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/api/v1/student/afc06f10-5121-4c11-b09f-1ac8b92f8faf",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"v1",
+						"student",
+						"afc06f10-5121-4c11-b09f-1ac8b92f8faf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteStudentById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/api/v1/student/daf8ea48-6d08-413f-a4fd-face2cf19ccb",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"v1",
+						"student",
+						"daf8ea48-6d08-413f-a4fd-face2cf19ccb"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

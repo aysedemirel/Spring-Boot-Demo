@@ -1,0 +1,9 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:49153/demodb
+    username: postgres
+    password: postgrespw
+    poll-size: 30
+
+server:
+  port: 8082
